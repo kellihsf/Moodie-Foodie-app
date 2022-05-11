@@ -3,7 +3,6 @@ import './App.css';
 import FoodList from './views/FoodList';
 
 function App() {
-  
   return (
     <div className="App">
       <FoodList />
