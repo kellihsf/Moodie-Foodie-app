@@ -3,10 +3,23 @@
 }
 
 h1 {
-  color: whitesmoke;
+  color: black;
 }
 
 body {
-  background: rgb(51,225,227);
-  background: radial-gradient(circle, rgba(51,225,227,1) 5%, rgba(45,253,139,1) 100%);
+  background: rgb(2,98,55);
+  background: linear-gradient(90deg, rgba(2,98,55,1) 0%, rgba(17,142,149,1) 0%, rgba(69,252,134,1) 100%);
+}
+
+.searchInputs input {
+  height: 29px;
+  width: 250px;
+  margin-right: 15px;
+  border-radius: 2px;
+  border: none;
+}
+
+.search-button {
+  background-color: rgb(27 106 55) !important;
+  height: 31px;
 }
