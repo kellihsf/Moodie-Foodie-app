@@ -3,12 +3,12 @@
 }
 
 h1 {
-  color: black;
+  color: #D7E8BA;
+  font-family: 'Trebuchet MS';
 }
 
 body {
-  background: rgb(2,98,55);
-  background: linear-gradient(90deg, rgba(2,98,55,1) 0%, rgba(17,142,149,1) 0%, rgba(69,252,134,1) 100%);
+  background: #4DA1A9;
 }
 
 .searchInputs input {
@@ -20,6 +20,10 @@ body {
 }
 
 .search-button {
-  background-color: rgb(27 106 55) !important;
+  background-color: #2E5077 !important;
   height: 31px;
+}
+
+.textName {
+  color: #611C35;
 }

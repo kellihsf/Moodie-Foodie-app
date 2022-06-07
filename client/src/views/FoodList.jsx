@@ -92,7 +92,7 @@ function FoodList() {
         </Card>
         </div>
       ) : (
-        <div>Select a food above</div>
+        <div className="textName">Select a food above</div>
       )}
      
     </div>
